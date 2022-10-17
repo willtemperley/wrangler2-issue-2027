@@ -8,8 +8,6 @@ In the case shown below, w0 fails to start. Note: nothing was listening on port 
 
 It may take a few tries to replicate the issue. 
 
-Running separate wrangler processes in parallel causes the 
-
 ```shell
 w2:dev: > w2@0.0.0 dev
 w2:dev: > wrangler dev
