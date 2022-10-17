@@ -1,10 +1,10 @@
-# Reproducing https://github.com/cloudflare/wrangler2/issues/2027
+# Replicating https://github.com/cloudflare/wrangler2/issues/2027
 
 `npm run dev` executes the `turbo run dev --parallel` script.
 
 This starts multiple wrangler processes in parallel (workers w0, w1 and w2 in ./packages)
 
-In the case shown below, w2 fails to start. Note: nothing was listening on port 6284 prior to running this.
+In the case shown below, w0 fails to start. Note: nothing was listening on port 6284 prior to running this.
 
 It may take a few tries to replicate the issue. 
 
